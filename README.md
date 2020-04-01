@@ -25,6 +25,7 @@
 * This is a good test for using HyperNet idea on VAE
 
 <br />
+
 ## Quick Start
 * Run train.py and the result will be stored in output
 * The hyper params are already set up in train.py.
