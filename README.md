@@ -50,6 +50,11 @@
 ### Test of HyperNet
 #### In order to test the HyperNet, two experiment are designed as following
 ##### Experiment one : Input two different weights and one noise
+    we can see the problem that these two images are exactly the same, which is the most we dont want to happend.
+    Therefore, I try to concate the z from encoder(let say 50 z_dim) to a random normal(50 z_dim) to build up a 
+    100 dimension z for hyperNet. But this does not work. 
+    And for some reasons, those python files disappear ???
+
  ![Image text](https://github.com/CuiJiali-CV/HyperNet-VAE/raw/master/img/diff_weights_same_z1.png)
  ![Image text](https://github.com/CuiJiali-CV/HyperNet-VAE/raw/master/img/diff_weights_same_z2.png)
 ##### Experiment two : Input two different noise and one weight
